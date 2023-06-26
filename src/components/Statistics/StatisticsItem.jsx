@@ -5,7 +5,7 @@ export const StatisticsItem = ({ label, percentage }) => {
   return (
     <>
       <span className={css.label}>{label}</span>
-      <span className={css.percentage}>{percentage}</span>
+      <span className={css.percentage}>{percentage}%</span>
     </>
   );
 };
